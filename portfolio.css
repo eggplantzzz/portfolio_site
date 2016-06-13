@@ -1,0 +1,14 @@
+body {
+  background-color: #A4D8F1;
+}
+
+.col-sm-3 {
+  background-color: #72BDE2;
+  border-radius: 2pt;
+  margin-top: 50px;
+  height: 100px;
+  width: 22%;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+}
