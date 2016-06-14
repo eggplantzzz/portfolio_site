@@ -1,14 +1,69 @@
 body {
   background-color: #A4D8F1;
+  padding: none;
 }
 
-.col-sm-3 {
+.tile {
   background-color: #72BDE2;
   border-radius: 2pt;
   margin-top: 50px;
-  height: 100px;
-  width: 22%;
+  height: 150px;
+  width: 150px;
   border-width: 1px;
   border-color: grey;
   border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.tile-caption {
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  margin-left: 40px;
+}
+
+.introduction {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.line {
+  margin-left: 30px;
+}
+
+#small-git {
+  height: 70px;
+  width: 40px;
+}
+
+#small-linked {
+  height: 70px;
+  width: 70px;
+}
+
+#small-contact {
+  height: 70px;
+  width: 70px;
+}
+.undertext {
+  text-align: center;
+}
+
+footer {
+  height: 40px;
+  background-color: grey;
 }
