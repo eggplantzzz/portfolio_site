@@ -1,0 +1,110 @@
+body {
+  background-color: #A4D8F1;
+  padding: none;
+  margin: none;
+  font-style: Arial;
+}
+
+header {
+  /*background-color: #888B8C;*/
+  margin: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  height: 40px;
+  text-align: right;
+  margin-right: 40px;
+  /*background-color: #888B8C;*/
+  padding-bottom: 200px;
+}
+
+.tile {
+  background-color: #72BDE2;
+  border-radius: 2pt;
+  margin-top: 50px;
+  height: 150px;
+  width: 150px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tile:hover {
+  background-color: white;
+}
+
+.tile-caption {
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  text-align: center;
+}
+
+.name-description {
+  text-align: center;
+}
+
+.section-heading {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.introduction {
+  margin-bottom: 40px;
+}
+
+.introduction-text {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+
+.line {
+  margin-left: 30px;
+}
+
+.git {
+  background-color: #47A27D;
+}
+
+.linked {
+  background-color: #FF9D4B;
+}
+
+.contact {
+  background-color: #348BA4;
+}
+
+#small-git {
+  height: 70px;
+  width: 40px;
+}
+
+#small-linked {
+  height: 70px;
+  width: 70px;
+}
+
+#small-contact {
+  height: 70px;
+  width: 70px;
+}
+.undertext {
+  text-align: center;
+}
