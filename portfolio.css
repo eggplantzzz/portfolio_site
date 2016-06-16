@@ -20,6 +20,10 @@ footer {
   padding-bottom: 200px;
 }
 
+hr {
+  width: 90%;
+}
+
 .tile {
   background-color: #72BDE2;
   border-radius: 2pt;
@@ -72,7 +76,7 @@ footer {
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .line {
