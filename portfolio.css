@@ -3,10 +3,13 @@ body {
   padding: none;
   margin: none;
   font-style: Arial;
+  border-width: 1px;
+  border-bottom-width: 1px;
+
 }
 
 header {
-  /*background-color: #888B8C;*/
+  background-color: #519EC4;
   margin: none;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -15,9 +18,16 @@ header {
 footer {
   height: 40px;
   text-align: right;
-  margin-right: 40px;
-  /*background-color: #888B8C;*/
-  padding-bottom: 200px;
+  background-color: #519EC4;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid;
+  border-color: #519EC4;
 }
 
 .tile {
@@ -41,12 +51,12 @@ footer {
 
 .tile-caption {
   margin-top: 10px;
-  height: 150px;
+  margin-bottom: 40px;
   width: 150px;
   text-align: center;
 }
 
-.container {
+.container-fluid {
   display: flex;
   justify-content: center;
 }
@@ -64,15 +74,30 @@ footer {
   margin-top: 60px;
 }
 
-.introduction {
+#introduction {
   margin-bottom: 40px;
 }
 
-.introduction-text {
+#introduction-text {
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 40px;
+}
+
+#find-me {
+  height: 318px;
+}
+
+#email-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+}
+
+p {
+  font-size: 12pt;
 }
 
 .line {
