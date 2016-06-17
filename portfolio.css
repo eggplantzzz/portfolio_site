@@ -1,6 +1,6 @@
 body {
   background-color: #A4D8F1;
-  padding: none;
+  padding: 0px 70px 0px 70px;
   margin: none;
   font-style: Arial;
 }
@@ -64,7 +64,7 @@ hr {
 }
 
 .section-heading {
-  margin-left: 40px;
+  margin-left: 100px;
   margin-top: 60px;
 }
 
