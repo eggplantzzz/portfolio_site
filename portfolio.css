@@ -33,7 +33,6 @@ hr {
 .tile {
   background-color: #72BDE2;
   border-radius: 2pt;
-  margin-top: 50px;
   height: 150px;
   width: 150px;
   border-width: 1px;
@@ -130,6 +129,12 @@ p {
   height: 70px;
   width: 70px;
 }
+
+#small-dots {
+  height: 70px;
+  width: 70px;
+}
+
 .undertext {
   text-align: center;
 }
