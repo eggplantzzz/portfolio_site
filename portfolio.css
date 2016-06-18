@@ -5,7 +5,6 @@ body {
   font-style: Arial;
   border-width: 1px;
   border-bottom-width: 1px;
-
 }
 
 header {
@@ -22,6 +21,7 @@ footer {
   padding-bottom: 50px;
   padding-right: 40px;
   padding-top: 20px;
+
 }
 
 hr {
