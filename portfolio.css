@@ -74,6 +74,7 @@ hr {
 }
 
 #introduction {
+  height: 250px;
   margin-bottom: 40px;
 }
 
@@ -93,6 +94,12 @@ hr {
   justify-content: center;
   align-items: center;
   height: 260px;
+}
+
+#reach-me {
+  font-size: 14pt;
+  text-align: center;
+  padding-top: 60px;
 }
 
 p {
